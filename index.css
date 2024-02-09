@@ -1,0 +1,574 @@
+@charset "UTF-8";
+/*-------------------------------------------------
+index
+-------------------------------------------------*/
+.school_bnr {
+  margin-bottom: 40px;
+  background: #F5F5F5;
+}
+
+.school_bnr ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.school_bnr li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 230px;
+  margin: 0 10px;
+}
+
+.school_bnr li img {
+  display: block;
+}
+
+.school_bnr .flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.school_bnr .flex-column a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.school_bnr .flex-column a:last-child {
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 833px) {
+  .school_bnr {
+    margin-bottom: 60px;
+    padding: 0 6%;
+  }
+  .school_bnr ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 25px 0 15px;
+  }
+  .school_bnr li {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .school_bnr li img {
+    display: block;
+    width: 100%;
+  }
+  .school_bnr .flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0;
+  }
+  .school_bnr .flex-column a {
+    margin-bottom: 10px;
+  }
+  .school_bnr .flex-column a:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+.sec_point {
+  margin: 0 auto 70px;
+  padding: 60px 0;
+}
+
+.sec_point h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sec_point .item {
+  margin-bottom: 40px;
+}
+
+@media all and (max-width: 833px) {
+  .sec_point {
+    margin: 0 auto 40px;
+    padding: 40px 0;
+  }
+}
+
+.att_box {
+  color: #FF0000;
+}
+
+.att_box p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+/*------------------------------------------------------------------
+開講情報
+------------------------------------------------------------------*/
+.school_news {
+  margin-bottom: 40px;
+  padding: 25px;
+  border-radius: 5px;
+  background: #F5f5f5;
+}
+
+.school_news h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.45833;
+  letter-spacing: 0.12em;
+}
+
+.school_news dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  border-bottom: 1px dashed #A5A5A5;
+}
+
+.school_news dl:last-child {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.school_news dl dt {
+  margin-right: 30px;
+}
+
+.school_news dl time {
+  color: #F29600;
+}
+
+@media all and (max-width: 833px) {
+  .school_news {
+    width: 110%;
+    margin-bottom: 30px;
+    margin-left: -5%;
+    border-radius: 0;
+    padding: 20px 15px;
+  }
+  .school_news dl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .school_news dl dt {
+    margin: 0 0 10px;
+  }
+}
+
+.covid_news {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  border-radius: 10px;
+  border: 2px solid #F29600;
+  background: #FFF0D8;
+}
+
+@media all and (max-width: 833px) {
+  .covid_news {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+  }
+}
+
+/*------------------------------------------------------------------
+個別指導塾をお探しの方へ
+------------------------------------------------------------------*/
+.gakucho .block_col .media {
+  width: 400px;
+}
+
+.gakucho .block_col article {
+  width: calc(100% - 450px);
+}
+
+.gakucho .name {
+  font-weight: 600;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+}
+
+.gakucho .name strong {
+  margin-left: 20px;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+}
+
+@media all and (max-width: 833px) {
+  .gakucho .block_col .media {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .gakucho .block_col article {
+    width: 100%;
+  }
+  .gakucho .photo_right .media {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .gakucho .photo_right article {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .gakucho .sp_col {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gakucho .sp_col > figure {
+    width: 60%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .gakucho .sp_col .name {
+    width: 40%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+  }
+  .gakucho .sp_col .name strong {
+    display: block;
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+  }
+}
+
+@media all and (max-width: 833px) {
+  .feature .photo_right figure {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .feature .photo_right article {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+/* ----------------------------------------------------
+キャンペーン枠
+---------------------------------------------------- */
+.campaign_box {
+  max-width: 1280px;
+  margin: -52px auto 0;
+}
+
+.campaign_box .btn_area {
+  padding: 35px 0;
+}
+
+.campaign_box .btn_area .btn2 {
+  margin: auto;
+  max-width: 370px;
+}
+
+@media all and (max-width: 833px) {
+  .campaign_box {
+    max-width: 92%;
+  }
+  .campaign_box .btn_area {
+    padding: 20px 0 10px;
+  }
+  .campaign_box .btn_area .btn2 {
+    max-width: 100%;
+  }
+}
+
+/* ----------------------------------------------------
+ニュース
+---------------------------------------------------- */
+.news_box {
+  padding: 40px;
+  border-radius: 5px;
+  border: 1px solid #989898;
+}
+
+.news_box dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  border-bottom: 1px dashed #A5A5A5;
+}
+
+.news_box dl:last-child {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.news_box dt {
+  margin-right: 50px;
+  color: #F29600;
+}
+
+.news_box dd {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.news_box .more {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  line-height: 1;
+}
+
+@media all and (max-width: 833px) {
+  .news_box {
+    margin: 20px 0 45px;
+    padding: 25px;
+    position: relative;
+  }
+  .news_box h3 {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin: 0 auto;
+    padding: 12px 25px;
+    text-align: center;
+    background: #FFF;
+  }
+  .news_box .col {
+    margin: 0 0;
+    padding-left: 0;
+  }
+  .news_box .news_box {
+    padding: 40px 20px 40px;
+    width: 98%;
+  }
+  .news_box dl {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .news_box dt {
+    margin-right: 0;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+  .news_box dd {
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+}
+
+/* ----------------------------------------------------
+コラム
+---------------------------------------------------- */
+.column_sec h3 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+}
+
+.column_sec .col > div:first-child {
+  padding-right: 40px;
+  border-right: 1px dashed #989898;
+}
+
+.column_sec .col > div:last-child {
+  padding-left: 40px;
+}
+
+.column_sec .col > * {
+  width: 50%;
+}
+
+.column_sec .cate {
+  margin-top: 10px;
+  line-height: 1;
+}
+
+.column_sec .cate time {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1;
+  letter-spacing: 0.04em;
+}
+
+.column_sec .item {
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.column_sec .item h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.66667;
+}
+
+.column_sec .item figure {
+  border-radius: 10px 10px 0 0;
+}
+
+.column_sec .item .text_area {
+  padding: 20px;
+}
+
+.column_sec .item_card {
+  margin-bottom: 25px;
+}
+
+.column_sec .item_card:last-child {
+  margin-bottom: 0;
+}
+
+.column_sec .item_card h4 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.625;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.column_sec .item_card figure {
+  width: 160px;
+  min-height: 130px;
+  border-radius: 10px 0 0 10px;
+}
+
+.column_sec .item_card article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: calc(100% - 160px);
+  padding: 12px 20px;
+}
+
+@media all and (max-width: 833px) {
+  .column_sec .col > div:first-child {
+    padding-right: 0;
+    border-right: none;
+  }
+  .column_sec .col > div:last-child {
+    padding-left: 0;
+  }
+  .column_sec .col > * {
+    width: 100%;
+  }
+  .column_sec .item {
+    margin-bottom: 40px;
+  }
+  .column_sec .item_card {
+    margin-bottom: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .column_sec .item_card:last-child {
+    margin-bottom: 40px;
+  }
+  .column_sec .item_card h4 {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.33333;
+  }
+  .column_sec .item_card figure {
+    width: 120px;
+    min-height: 120px;
+    border-radius: 10px 0 0 10px;
+  }
+  .column_sec .item_card article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: calc(100% - 120px);
+    padding: 12px 20px;
+  }
+}
+
+/* ----------------------------------------------------
+スペシャルバナー枠
+---------------------------------------------------- */
+.special_bnr img {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+/*# sourceMappingURL=index.css.map */
